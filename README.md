@@ -21,3 +21,6 @@ nmcli con up vlan200
 # Имя и время
 hostnamectl set-hostname hq-cli.au-team.irpo
 timedatectl set-timezone Asia/Yekaterinburg
+
+очистка pve:
+history -c && history -w
